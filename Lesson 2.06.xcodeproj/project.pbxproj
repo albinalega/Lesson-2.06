@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		55D62B9728E76774009F800D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62B9628E76774009F800D /* AppDelegate.swift */; };
 		55D62B9928E76774009F800D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62B9828E76774009F800D /* SceneDelegate.swift */; };
-		55D62B9B28E76774009F800D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62B9A28E76774009F800D /* ViewController.swift */; };
+		55D62B9B28E76774009F800D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62B9A28E76774009F800D /* MainViewController.swift */; };
 		55D62B9E28E76774009F800D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D62B9C28E76774009F800D /* Main.storyboard */; };
 		55D62BA028E76776009F800D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D62B9F28E76776009F800D /* Assets.xcassets */; };
 		55D62BA328E76776009F800D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D62BA128E76776009F800D /* LaunchScreen.storyboard */; };
+		55D62BAB28E77DF9009F800D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62BAA28E77DF9009F800D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55D62B9328E76774009F800D /* Lesson 2.06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 2.06.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D62B9628E76774009F800D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55D62B9828E76774009F800D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55D62B9A28E76774009F800D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55D62B9A28E76774009F800D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		55D62B9D28E76774009F800D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55D62B9F28E76776009F800D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55D62BA228E76776009F800D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55D62BA428E76776009F800D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D62BAA28E77DF9009F800D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				55D62B9628E76774009F800D /* AppDelegate.swift */,
 				55D62B9828E76774009F800D /* SceneDelegate.swift */,
-				55D62B9A28E76774009F800D /* ViewController.swift */,
+				55D62B9A28E76774009F800D /* MainViewController.swift */,
+				55D62BAA28E77DF9009F800D /* SettingsViewController.swift */,
 				55D62B9C28E76774009F800D /* Main.storyboard */,
 				55D62B9F28E76776009F800D /* Assets.xcassets */,
 				55D62BA128E76776009F800D /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D62B9B28E76774009F800D /* ViewController.swift in Sources */,
+				55D62B9B28E76774009F800D /* MainViewController.swift in Sources */,
 				55D62B9728E76774009F800D /* AppDelegate.swift in Sources */,
 				55D62B9928E76774009F800D /* SceneDelegate.swift in Sources */,
+				55D62BAB28E77DF9009F800D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
