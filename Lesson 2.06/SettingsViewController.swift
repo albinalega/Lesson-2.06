@@ -11,19 +11,39 @@ final class SettingsViewController: UIViewController { // final - указани
     @IBOutlet var minimumValueTF: UITextField!
     @IBOutlet var maximumValueTF: UITextField!
     
-    var minimumValue: String!
-    var maximumValue: String!
+    var randomNumber: RandomNumber!
+    var delegate: SettingsViewControllerDelegate! // экземпляр протокола
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        minimumValueTF.text = minimumValue
-        maximumValueTF.text = maximumValue
+        minimumValueTF.delegate = self
+        maximumValueTF.delegate = self
+        minimumValueTF.text = randomNumber.minimumValue.formatted()
+        maximumValueTF.text = randomNumber.maximumValue.formatted()
         
     }
     
-    @IBAction func cancelButtonWasTapped() {
+    @IBAction func cancelButtonPressed() {
         dismiss(animated: true) // закрывает ViewController
     }
     
+    @IBAction func saveButtonPressed() {
+        view.endEditing(true)
+        delegate.setNewValues(for: randomNumber)
+        dismiss(animated: true)
+    }
+}
+
+// MARK: - UITextFieldDelegate
+extension SettingsViewController: UITextFieldDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        guard let newValue = textField.text else { return } // извлекаем значение
+        guard let numberValue = Int(newValue) else { return } // убеждаемся, что newValue явл-ся целочисленным
+        if textField == minimumValueTF {
+            randomNumber.minimumValue = numberValue
+        } else {
+            randomNumber.maximumValue = numberValue
+        }
+    }
 }
 

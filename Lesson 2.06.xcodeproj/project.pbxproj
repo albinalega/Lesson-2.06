@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		556CD6B428F6F0D400E2878A /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556CD6B328F6F0D400E2878A /* RandomNumber.swift */; };
 		55D62B9728E76774009F800D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62B9628E76774009F800D /* AppDelegate.swift */; };
 		55D62B9928E76774009F800D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62B9828E76774009F800D /* SceneDelegate.swift */; };
 		55D62B9B28E76774009F800D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62B9A28E76774009F800D /* MainViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		556CD6B328F6F0D400E2878A /* RandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
 		55D62B9328E76774009F800D /* Lesson 2.06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 2.06.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D62B9628E76774009F800D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55D62B9828E76774009F800D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				55D62B9628E76774009F800D /* AppDelegate.swift */,
 				55D62B9828E76774009F800D /* SceneDelegate.swift */,
+				556CD6B328F6F0D400E2878A /* RandomNumber.swift */,
 				55D62B9A28E76774009F800D /* MainViewController.swift */,
 				55D62BAA28E77DF9009F800D /* SettingsViewController.swift */,
 				55D62B9C28E76774009F800D /* Main.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				55D62B9B28E76774009F800D /* MainViewController.swift in Sources */,
 				55D62B9728E76774009F800D /* AppDelegate.swift in Sources */,
+				556CD6B428F6F0D400E2878A /* RandomNumber.swift in Sources */,
 				55D62B9928E76774009F800D /* SceneDelegate.swift in Sources */,
 				55D62BAB28E77DF9009F800D /* SettingsViewController.swift in Sources */,
 			);
